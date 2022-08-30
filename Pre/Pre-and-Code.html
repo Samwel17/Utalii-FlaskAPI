@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="description" content="Pre and Code">  
+	<title>Pre and Code</title>
+	
+	</head>
+	
+	<body>
+	
+	<!--
+		<pre>	used to format(display) text exactly as it is written
+		<code>	used to display computer code
+	-->
+	<pre>
+	T    H    I     S
+	IS  
+	A 
+	P    R     E 
+	T    A     G
+	
+	
+	</pre>
+	<hr/>
+	
+	<code><pre>
+	START MACRO
+	MOV AX,@DATA 
+	MOV DS,AX 
+	ENDM
+	
+	DISPLAY MACRO Msg	
+	MOV DI,OFFSET Msg
+	MOV AH,9
+	INT 21H
+	ENDM
+	</pre>
+	
+	
+	</code>
+	
+	</body>
+
+
+
+</html>
